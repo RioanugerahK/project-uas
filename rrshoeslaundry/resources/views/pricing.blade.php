@@ -12,21 +12,19 @@
           <div class="rectangle"></div>
           <div class="rectangle-2"></div>
           <div class="rectangle-3"></div>
-          <p class="RR-SHOESLAUNDRY">
+          <p class="title">
             <span class="text-wrapper">RR</span>
             <span class="span">&nbsp;</span>
             <span class="text-wrapper-2">SHOESLAUNDRY</span>
           </p>
           <div class="text-wrapper-3">Pricing Plan</div>
-          <p class="HOME"><span class="text-wrapper-4">HOME &gt; </span> <span class="text-wrapper-5">Pricing</span></p>
           <p class="faqs-i-help-i">FAQs&nbsp;&nbsp; I&nbsp;&nbsp; Help&nbsp;&nbsp; I&nbsp;&nbsp; Support</p>
-          <p class="home-about-services">
-          <a href="home.blade.php" class="text-wrapper-6">Home&nbsp;&nbsp; </a>
-          <a href="about.blade.php" class="span">About&nbsp;&nbsp;</a>
-          <a href="service.blade.php" class="text-wrapper-6">Services&nbsp;&nbsp;</a>
-          <a href="pricing.blade.php" class="text-wrapper-2">Pricing&nbsp;&nbsp;</a>
-          <a href="pages.blade.php" class="text-wrapper-6">Pages&nbsp;&nbsp;</a>
-          <a href="contact.blade.php" class="text-wrapper-6">Contact</a>
+          <p class="nav">
+            <a href="home" class="text-wrapper-2">Home&nbsp;&nbsp; </a>
+            <a href="about" class="text-wrapper-2">About&nbsp;&nbsp;</a>
+            <a href="service" class="text-wrapper-2">Services&nbsp;&nbsp;</a>
+            <a href="pricing" class="text-wrapper-6">Pricing&nbsp;&nbsp;</a>
+            <a href="contact" class="text-wrapper-2">Contact</a>
           </p>
         </div>
         <p class="OUR-PRICING-PLAN-the">
@@ -124,11 +122,11 @@
   box-shadow: 0px 4px 4px #00000040;
 }
 
-.desktop .RR-SHOESLAUNDRY {
+.desktop .title {
   position: absolute;
   width: 413px;
   height: 74px;
-  top: 80px;
+  top: 55px;
   left: 173px;
   font-family: "Inter-ExtraBold", Helvetica;
   font-weight: 800;
@@ -149,6 +147,7 @@
 
 .desktop .text-wrapper-2 {
   color: #46c6ce;
+  font-family: "Inter-MediumItalic", Helvetica;
 }
 
 .desktop .text-wrapper-3 {
@@ -165,20 +164,6 @@
   line-height: normal;
 }
 
-.desktop .HOME {
-  position: absolute;
-  width: 150px;
-  height: 45px;
-  top: 232px;
-  left: 1064px;
-  font-family: "Inter-ExtraBold", Helvetica;
-  font-weight: 800;
-  color: transparent;
-  font-size: 15px;
-  letter-spacing: 0;
-  line-height: normal;
-}
-
 .desktop .text-wrapper-4 {
   color: #ffffff;
 }
@@ -190,7 +175,7 @@
 .desktop .faqs-i-help-i {
   position: absolute;
   width: 315px;
-  top: 23px;
+  top: 10px;
   left: 183px;
   font-family: "Inter-Medium", Helvetica;
   font-weight: 500;
@@ -200,18 +185,22 @@
   line-height: normal;
 }
 
-.desktop .home-about-services {
+.desktop .nav {
   position: absolute;
-  width: 416px;
-  height: 72px;
+  width: 518px;
+  height: 71px;
   top: 82px;
-  left: 798px;
+  left: 736px;
   font-family: "Inter-Medium", Helvetica;
   font-weight: 500;
   color: transparent;
   font-size: 20px;
   letter-spacing: 0;
   line-height: normal;
+}
+
+.desktop .nav a{
+ text-decoration: none;
 }
 
 .desktop .text-wrapper-6 {

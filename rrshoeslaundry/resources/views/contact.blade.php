@@ -2,8 +2,6 @@
 <html>
   <head>
     <meta charset="utf-8" />
-    <link rel="stylesheet" href="globals.css" />
-    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <div class="desktop">
@@ -13,22 +11,18 @@
           <div class="rectangle-2"></div>
           <div class="rectangle-3"></div>
           <p class="home-about-services">
-          <a href="home.blade.php" class="text-wrapper">Home&nbsp;&nbsp; </a>
-          <a href="about.blade.php" class="span">About&nbsp;&nbsp;</a>
-          <a href="service.blade.php" class="text-wrapper">Services&nbsp;&nbsp;</a>
-          <a href="pricing.blade.php" class="text-wrapper">Pricing&nbsp;&nbsp;</a>
-          <a href="pages.blade.php" class="text-wrapper">Pages&nbsp;&nbsp;</a>
-          <a href="contact.blade.php" class="text-wrapper">Contact</a>
+            <a href="home" class="span">Home&nbsp;&nbsp; </a>
+            <a href="about" class="span">About&nbsp;&nbsp;</a>
+            <a href="service" class="span">Services&nbsp;&nbsp;</a>
+            <a href="pricing" class="span">Pricing&nbsp;&nbsp;</a>
+            <a href="contact" class="text-wrapper">Contact</a>
           </p>
-          <p class="RR-SHOESLAUNDRY">
+          <p class="title">
             <span class="text-wrapper-2">RR</span>
             <span class="text-wrapper-3">&nbsp;</span>
             <span class="span">SHOESLAUNDRY</span>
           </p>
           <div class="text-wrapper-4">Contact Us</div>
-          <p class="HOME">
-            <span class="text-wrapper-5">HOME &gt; </span> <span class="text-wrapper-6">Contact Us</span>
-          </p>
           <p class="faqs-i-help-i">FAQs&nbsp;&nbsp; I&nbsp;&nbsp; Help&nbsp;&nbsp; I&nbsp;&nbsp; Support</p>
         </div>
         <div class="ellipse"></div>
@@ -101,10 +95,10 @@
 
 .desktop .home-about-services {
   position: absolute;
-  width: 416px;
-  height: 72px;
+  width: 518px;
+  height: 71px;
   top: 82px;
-  left: 798px;
+  left: 736px;
   font-family: "Inter-Medium", Helvetica;
   font-weight: 500;
   color: transparent;
@@ -113,19 +107,25 @@
   line-height: normal;
 }
 
+.desktop .home-about-services  a{
+  text-decoration: none;
+}
+
 .desktop .text-wrapper {
   color: #000000;
+  font-family: "Inter-MediumItalic", Helvetica;
 }
 
 .desktop .span {
   color: #46c6ce;
+  font-family: "Inter-MediumItalic", Helvetica;
 }
 
-.desktop .RR-SHOESLAUNDRY {
+.desktop .title {
   position: absolute;
   width: 413px;
   height: 74px;
-  top: 80px;
+  top: 55px;
   left: 173px;
   font-family: "Inter-ExtraBold", Helvetica;
   font-weight: 800;
@@ -183,7 +183,7 @@
 .desktop .faqs-i-help-i {
   position: absolute;
   width: 315px;
-  top: 23px;
+  top: 10px;
   left: 183px;
   font-family: "Inter-Medium", Helvetica;
   font-weight: 500;
