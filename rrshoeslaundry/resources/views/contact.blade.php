@@ -25,24 +25,22 @@
             <span class="text-wrapper-3">&nbsp;</span>
             <span class="span">SHOESLAUNDRY</span>
           </p>
-          <div class="text-wrapper-4">About Us</div>
+          <div class="text-wrapper-4">Contact Us</div>
           <p class="HOME">
-            <span class="text-wrapper-5">HOME &gt; </span> <span class="text-wrapper-6">ABOUT US</span>
+            <span class="text-wrapper-5">HOME &gt; </span> <span class="text-wrapper-6">Contact Us</span>
           </p>
           <p class="faqs-i-help-i">FAQs&nbsp;&nbsp; I&nbsp;&nbsp; Help&nbsp;&nbsp; I&nbsp;&nbsp; Support</p>
         </div>
-        <p class="LEARN-ABOUT-US-we">
-          <span class="text-wrapper-7">LEARN ABOUT US<br /></span>
-          <span class="text-wrapper-8"><br /></span>
-          <span class="text-wrapper-9">We Are Quality Laundry<br />Provider In Your City<br /></span>
-          <span class="text-wrapper-10"><br /></span>
-          <span class="text-wrapper-11"
-            >Welcome to RRShoesClean! We are an experienced team that focuses on caring for your shoes. With the best
-            cleaning techniques and environmentally friendly materials, we pay close attention to ensuring every shoe is
-            returned to its best condition. Trust us to care for and extend the life of your beloved shoes.</span
-          >
-        </p>
-        <img class="image" src="img/image-1.png" />
+        <div class="ellipse"></div>
+        <div class="ellipse-2"></div>
+        <div class="ellipse-3"></div>
+        <div class="text-wrapper-7">Jl. Phh Musthafa</div>
+        <div class="text-wrapper-8">rrshoeslaundry@gmail.com</div>
+        <div class="text-wrapper-9">592912912962</div>
+        <div class="frame"><div class="text-wrapper-10">Subject</div></div>
+        <div class="div-wrapper"><div class="text-wrapper-11">Your Name</div></div>
+        <div class="frame-2"><div class="text-wrapper-11">Your Email</div></div>
+        <div class="frame-3"><div class="text-wrapper-12">Massage</div></div>
       </div>
     </div>
   </body>
@@ -103,10 +101,10 @@
 
 .desktop .home-about-services {
   position: absolute;
-  width: 518px;
-  height: 71px;
+  width: 416px;
+  height: 72px;
   top: 82px;
-  left: 736px;
+  left: 798px;
   font-family: "Inter-Medium", Helvetica;
   font-weight: 500;
   color: transparent;
@@ -148,17 +146,16 @@
 
 .desktop .text-wrapper-4 {
   position: absolute;
-  width: 262px;
-  height: 58px;
+  width: 325px;
+  height: 65px;
   top: 225px;
   left: 173px;
   font-family: "Inter-ExtraBold", Helvetica;
   font-weight: 800;
   color: #ffffff;
-  font-size: 50px;
+  font-size: 48px;
   letter-spacing: 0;
   line-height: normal;
-  white-space: nowrap;
 }
 
 .desktop .HOME {
@@ -196,55 +193,162 @@
   line-height: normal;
 }
 
-.desktop .LEARN-ABOUT-US-we {
+.desktop .ellipse {
+  left: 259px;
   position: absolute;
-  width: 759px;
-  top: 481px;
-  left: 602px;
+  width: 153px;
+  height: 143px;
+  top: 470px;
+  background-color: #d9d9d9;
+  border-radius: 76.5px/71.5px;
+}
+
+.desktop .ellipse-2 {
+  left: 1027px;
+  position: absolute;
+  width: 153px;
+  height: 143px;
+  top: 470px;
+  background-color: #d9d9d9;
+  border-radius: 76.5px/71.5px;
+}
+
+.desktop .ellipse-3 {
+  left: 643px;
+  position: absolute;
+  width: 153px;
+  height: 143px;
+  top: 470px;
+  background-color: #d9d9d9;
+  border-radius: 76.5px/71.5px;
+}
+
+.desktop .text-wrapper-7 {
+  position: absolute;
+  width: 235px;
+  height: 77px;
+  top: 619px;
+  left: 218px;
   font-family: "Inter-ExtraBold", Helvetica;
-  font-weight: 400;
-  color: transparent;
-  font-size: 25px;
+  font-weight: 800;
+  color: #000000;
+  font-size: 15px;
+  text-align: center;
   letter-spacing: 0;
   line-height: normal;
 }
 
-.desktop .text-wrapper-7 {
-  font-weight: 800;
-  color: #46c6ce;
-}
-
 .desktop .text-wrapper-8 {
+  position: absolute;
+  width: 231px;
+  height: 54px;
+  top: 631px;
+  left: 598px;
+  font-family: "Inter-ExtraBold", Helvetica;
   font-weight: 800;
   color: #000000;
   font-size: 15px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
 }
 
 .desktop .text-wrapper-9 {
+  position: absolute;
+  width: 176px;
+  height: 46px;
+  top: 639px;
+  left: 1016px;
+  font-family: "Inter-ExtraBold", Helvetica;
   font-weight: 800;
-  color: #194376;
-  font-size: 50px;
+  color: #000000;
+  font-size: 15px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.desktop .frame {
+  width: 883px;
+  height: 38px;
+  top: 784px;
+  left: 272px;
+  background-color: #ffffff;
+  position: absolute;
+  border: 1px solid;
+  border-color: #000000;
 }
 
 .desktop .text-wrapper-10 {
+  position: absolute;
+  width: 94px;
+  height: 36px;
+  top: -1px;
+  left: 11px;
+  font-family: "Inter-ExtraBold", Helvetica;
   font-weight: 800;
-  color: #000000;
-  font-size: 30px;
+  color: #888888;
+  font-size: 15px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.desktop .div-wrapper {
+  width: 435px;
+  height: 36px;
+  top: 729px;
+  left: 272px;
+  position: absolute;
+  border: 1px solid;
+  border-color: #000000;
 }
 
 .desktop .text-wrapper-11 {
-  font-family: "Inter-Medium", Helvetica;
-  font-weight: 500;
-  color: #000000;
+  position: absolute;
+  width: 94px;
+  height: 36px;
+  top: -1px;
+  left: 9px;
+  font-family: "Inter-ExtraBold", Helvetica;
+  font-weight: 800;
+  color: #888888;
+  font-size: 15px;
+  letter-spacing: 0;
+  line-height: normal;
 }
 
-.desktop .image {
+.desktop .frame-2 {
+  width: 442px;
+  height: 36px;
+  top: 729px;
+  left: 713px;
   position: absolute;
-  width: 410px;
-  height: 473px;
-  top: 456px;
-  left: 116px;
-  object-fit: cover;
+  border: 1px solid;
+  border-color: #000000;
+}
+
+.desktop .frame-3 {
+  width: 883px;
+  height: 192px;
+  top: 832px;
+  left: 272px;
+  position: absolute;
+  border: 1px solid;
+  border-color: #000000;
+}
+
+.desktop .text-wrapper-12 {
+  position: absolute;
+  width: 75px;
+  height: 39px;
+  top: 14px;
+  left: 11px;
+  font-family: "Inter-ExtraBold", Helvetica;
+  font-weight: 800;
+  color: #888888;
+  font-size: 15px;
+  letter-spacing: 0;
+  line-height: normal;
 }
 
 </style>

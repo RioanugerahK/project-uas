@@ -17,9 +17,9 @@
           <a href="home.blade.php" class="text-wrapper-2">Home&nbsp;&nbsp; </a>
           <a href="about.blade.php" class="span">About&nbsp;&nbsp;</a>
           <a href="service.blade.php" class="text-wrapper-2">Services&nbsp;&nbsp;</a>
-          <a href="pricing.html" class="text-wrapper-2">Pricing&nbsp;&nbsp;</a>
-          <a href="pages.html" class="text-wrapper-2">Pages&nbsp;&nbsp;</a>
-          <a href="contact.html" class="text-wrapper-2">Contact</a>
+          <a href="pricing.blade.php" class="text-wrapper-2">Pricing&nbsp;&nbsp;</a>
+          <a href="pages.blade.php" class="text-wrapper-2">Pages&nbsp;&nbsp;</a>
+          <a href="contact.blade.php" class="text-wrapper-2">Contact</a>
           </p>
           <p class="RR-SHOESLAUNDRY">
             <span class="text-wrapper-3">RR</span>

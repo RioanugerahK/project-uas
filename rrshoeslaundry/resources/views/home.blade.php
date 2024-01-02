@@ -16,10 +16,10 @@
             <span class="span"
               >  <a href="home.blade.php" class="text-wrapper">Home&nbsp;&nbsp; </a>
           <a href="about.blade.php" class="span">About&nbsp;&nbsp;</a>
-          <a href="service.html" class="text-wrapper">Services&nbsp;&nbsp;</a>
-          <a href="pricing.html" class="text-wrapper">Pricing&nbsp;&nbsp;</a>
-          <a href="pages.html" class="text-wrapper">Pages&nbsp;&nbsp;</a>
-          <a href="contact.html" class="text-wrapper">Contact</a></span
+          <a href="service.blade.php" class="text-wrapper">Services&nbsp;&nbsp;</a>
+          <a href="pricing.blade.php" class="text-wrapper">Pricing&nbsp;&nbsp;</a>
+          <a href="pages.blade.php" class="text-wrapper">Pages&nbsp;&nbsp;</a>
+          <a href="contact.blade.php" class="text-wrapper">Contact</a></span
             >
           </p>
           <p class="RR-SHOESLAUNDRY">
