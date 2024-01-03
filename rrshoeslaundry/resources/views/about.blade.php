@@ -31,11 +31,11 @@
           <span class="text-wrapper-8"><br /></span>
           <span class="text-wrapper-9">We Are Quality Laundry<br />Provider In Your City<br /></span>
           <span class="text-wrapper-10"><br /></span>
-          <span class="text-wrapper-11"
-            >Welcome to RRShoesClean! We are an experienced team that focuses on caring for your shoes. With the best
-            cleaning techniques and environmentally friendly materials, we pay close attention to ensuring every shoe is
-            returned to its best condition. Trust us to care for and extend the life of your beloved shoes.</span
-          >
+          <span class="text-wrapper-11">
+            RRSHOES:AUNDRY adalah layanan laundry sepatu yang berkomitmen untuk memberikan pelayanan terbaik dalam perawatan dan kebersihan sepatu Anda. Dengan pengalaman bertahun-tahun, kami telah menjadi pilihan utama bagi pelanggan yang menginginkan sepatu mereka dirawat dengan teliti.
+            Tim kami terdiri dari ahli laundry sepatu yang berdedikasi dan menggunakan teknologi terkini untuk memastikan setiap pasangan sepatu Anda kembali bersih dan terawat seperti baru.
+            Kami mengerti bahwa setiap sepatu memiliki karakteristik dan bahan yang berbeda, oleh karena itu, kami menyediakan layanan yang disesuaikan dengan kebutuhan unik setiap pelanggan. Keamanan, kualitas, dan kepuasan pelanggan adalah prioritas utama kami.
+          </span>
         </p>
         <img class="image" src="{{ asset('img/sepatu.png') }}" alt="Sepatu Image">
       </div>
@@ -219,7 +219,7 @@
 }
 
 .desktop .text-wrapper-11 {
-  font-family: "Inter-Medium", Helvetica;
+  font-family: "Inter-MediumItalic", Helvetica;
   font-weight: 500;
   color: #000000;
 }
