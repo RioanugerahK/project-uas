@@ -37,7 +37,7 @@
             returned to its best condition. Trust us to care for and extend the life of your beloved shoes.</span
           >
         </p>
-        <img class="image" src="img/image-1.png" />
+        <img class="image" src="{{ asset('img/sepatu.png') }}" alt="Sepatu Image">
       </div>
     </div>
   </body>
