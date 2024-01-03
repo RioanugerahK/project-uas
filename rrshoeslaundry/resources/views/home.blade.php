@@ -18,6 +18,7 @@
           <a href="service" class="span">Services&nbsp;&nbsp;</a>
           <a href="pricing" class="span">Pricing&nbsp;&nbsp;</a>
           <a href="contact" class="span">Contact</a>
+          <a href="{{route('actionlogout')}}" class="span"><i class="fa fa-power-off"></i> Log Out</a>
           </p>
           <p class="title">
             <span class="text-wrapper-2">RR</span>
