@@ -12,6 +12,7 @@
           <div class="rectangle"></div>
           <div class="rectangle-2"></div>
           <div class="rectangle-3"></div>
+
           <p class="title">
             <span class="text-wrapper">RR</span>
             <span class="span">&nbsp;</span>
@@ -39,7 +40,9 @@
           </div>
           <div class="overlap-group-2">
             <div class="frame-2"></div>
+            <a href="datasepatu.blade.php">
             <div class="text-wrapper-10">Rp. 30K</div>
+            </a>
           </div>
         </div>
         <div class="frame-3">
@@ -50,19 +53,23 @@
           </p>
           <div class="overlap-2">
             <div class="frame-4"></div>
+            <a href="datasepatu.blade.php">
             <div class="text-wrapper-10">Rp. 80K</div>
+            </a>
           </div>
         </div>
         <div class="frame-5">
           <div class="overlap-3">
-            <div class="ellipse"></div>
+            <div class="ellipse-3"></div>
             <p class="p">
               Deep Clean<br /><br />All Material (Luar dan Dalam)<br />Plus Pewangi/Anti Jamur<br />( 3 - 5 Hari)
             </p>
           </div>
           <div class="overlap-4">
             <div class="frame-2"></div>
+            <a href="datasepatu.blade.php">
             <div class="text-wrapper-10">Rp. 45K</div>
+            </a>
           </div>
         </div>
       </div>
@@ -261,10 +268,12 @@
   position: absolute;
   width: 128px;
   height: 126px;
-  top: 0;
+  top: 0px;
   left: 42px;
   background-color: #888888;
   border-radius: 64px/63px;
+  background-image: url('img/polish.png');
+  background-size: cover;
 }
 
 .desktop .p {
@@ -313,7 +322,7 @@
   font-size: 15px;
   text-align: center;
   letter-spacing: 0;
-  line-height: normal;
+  line-height: 50px;
 }
 
 .desktop .frame-3 {
@@ -333,6 +342,22 @@
   left: 73px;
   background-color: #888888;
   border-radius: 64px/63px;
+  background-image: url('img/cleaning.png');
+  background-size: cover;
+
+}
+
+.desktop .ellipse-3 {
+  position: absolute;
+  width: 128px;
+  height: 126px;
+  top: 0px;
+  left: 42px;
+  background-color: #888888;
+  border-radius: 64px/63px;
+  background-image: url('img/shoes.png');
+  background-size: cover;
+
 }
 
 .desktop .spesial-clean-like-a {
@@ -392,6 +417,42 @@
   height: 44px;
   top: 319px;
   left: 29px;
+}
+
+.desktop .image-wrapper {
+    position: absolute;
+    width: 203px;
+    height: 201px;
+    top: 839px;
+    left: 735px;
+    background-color: #d9d9d9;
+}
+
+.desktop .image {
+    position: absolute;
+    width: 203px;
+    height: 185px;
+    top: 0px;
+    left: 0px;
+    object-fit: cover;
+}
+
+.desktop .img-wrapper {
+    position: absolute;
+    width: 203px;
+    height: 201px;
+    top: 839px;
+    left: 489px;
+    background-color: #d9d9d9;
+}
+
+.desktop .img {
+    position: absolute;
+    width: 203px;
+    height: 185px;
+    top: 0px;
+    left: 0px;
+    object-fit: cover;
 }
 
 </style>

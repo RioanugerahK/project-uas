@@ -3,6 +3,7 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\LoginController;
 use App\Http\Controllers\HomeController;
+use App\Http\Controllers\LaundryController;
 use App\Http\Controllers\RegisterController;
 /*
 |--------------------------------------------------------------------------
@@ -28,6 +29,7 @@ Route::post('register/action', [RegisterController::class, 'actionregister'])->n
 //     return view('home');
 // });
 
+
 Route::get('/about', function () {
     return view('about');
 });
@@ -40,6 +42,23 @@ Route::get('/pricing', function () {
     return view('pricing');
 });
 
+
 Route::get('/contact', function () {
     return view('contact');
+});
+
+Route::get('/create', function () {
+    return view('create');
+});
+
+Route::get('/edit', function () {
+    return view('edit');
+});
+
+Route::get('/index', function () {
+    return view('index');
+});
+
+Route::get('/show', function () {
+    return view('show');
 });

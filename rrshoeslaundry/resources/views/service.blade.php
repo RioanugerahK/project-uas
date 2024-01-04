@@ -11,26 +11,36 @@
           <div class="rectangle"></div>
           <div class="rectangle-2"></div>
           <div class="rectangle-3"></div>
-          <p class="home-about-services">
-            <a href="home" class="text-wrapper-2">Home&nbsp;&nbsp; </a>
-            <a href="about" class="text-wrapper-2">About&nbsp;&nbsp;</a>
-            <a href="service" class="span">Services&nbsp;&nbsp;</a>
-            <a href="pricing" class="text-wrapper-2">Pricing&nbsp;&nbsp;</a>
-            <a href="contact" class="text-wrapper-2">Contact</a>
+          <p class="RR-SHOESLAUNDRY">
+            <span class="span">RR</span>
+            <span class="text-wrapper-2">&nbsp;</span>
+            <span class="text-wrapper-3">SHOESLAUNDRY</span>
           </p>
-          <p class="title">
-            <span class="text-wrapper-3">RR</span>
-            <span class="text-wrapper-4">&nbsp;</span>
-            <span class="text-wrapper-2">SHOESLAUNDRY</span>
-          </p>
-          <div class="text-wrapper-5">Our Services</div>
+          <div class="text-wrapper-4">Our Services</div>
+          <div class="HOME">HOME &gt; Services</div>
           <p class="faqs-i-help-i">FAQs&nbsp;&nbsp; I&nbsp;&nbsp; Help&nbsp;&nbsp; I&nbsp;&nbsp; Support</p>
+          <p class="home-about-services">
+            <a href="home" class="text-wrapper-5">Home&nbsp;&nbsp; </a>
+            <a href="about" class="text-wrapper-5">About&nbsp;&nbsp;</a>
+            <a href="service" class="text-wrapper-3">Services&nbsp;&nbsp;</a>
+            <a href="pricing" class="text-wrapper-5">Pricing&nbsp;&nbsp;</a>
+            <a href="contact" class="text-wrapper-5">Contact</a>
+          </p>
         </div>
-        <p class="OUR-SERVICES-what-we">
-          <span class="text-wrapper-6">OUR SERVICES<br /></span>
-          <span class="text-wrapper-7"><br /></span>
-          <span class="text-wrapper-8">What We Offer</span>
+        <p class="OUR-SERVICE-what-we">
+            <span class="text-wrapper-6">OUR SERVICE<br /></span>
+            <span class="text-wrapper-7">What We Offer</span>
         </p>
+        <img class="cleaning-products" src="img/cleaning-products.png" />
+        <p class="p">Menggunakan alat terbaik yang tidak akan merusak sepatu</p>
+        <img class="cleaning-staff" src="img/cleaning-staff.png" />
+        <p class="text-wrapper-8">Dibersihkan oleh para ahli yang berpengalaman di pembersihan sepatu</p>
+        <div class="overlap">
+            <img class="quick" src="img/quick.png" />
+            <p class="text-wrapper-9">Membersihkan sepatu dengan cepat dan tepat waktu</p>
+        </div>
+        <img class="sun" src="img/sun.png" />
+        <p class="text-wrapper-10">Mengeringkan sepatu dengan cepat tanpa merusak bahan dari seaptu</p>
       </div>
     </div>
   </body>
@@ -48,6 +58,7 @@
 
 .desktop .div {
   background-color: #ffffff;
+  overflow: hidden;
   width: 1440px;
   height: 1024px;
   position: relative;
@@ -103,35 +114,7 @@
   box-shadow: 0px 4px 4px #00000040;
 }
 
-.desktop .home-about-services {
-  position: absolute;
-  width: 518px;
-  height: 71px;
-  top: 82px;
-  left: 736px;
-  font-family: "Inter-Medium", Helvetica;
-  font-weight: 500;
-  color: transparent;
-  font-size: 20px;
-  letter-spacing: 0;
-  line-height: normal;
-}
-
-.desktop .home-about-services  a{
-  text-decoration: none;
-}
-
-.desktop .span {
-  color: #000000;
-  font-family: "Inter-MediumItalic", Helvetica;
-}
-
-.desktop .text-wrapper-2 {
-  color: #46c6ce;
-  font-family: "Inter-MediumItalic", Helvetica;
-}
-
-.desktop .title {
+.desktop .RR-SHOESLAUNDRY {
   position: absolute;
   width: 413px;
   height: 74px;
@@ -146,15 +129,19 @@
   line-height: normal;
 }
 
-.desktop .text-wrapper-3 {
+.desktop .span {
   color: #194376;
 }
 
-.desktop .text-wrapper-4 {
+.desktop .text-wrapper-2 {
   color: #ed1515;
 }
 
-.desktop .text-wrapper-5 {
+.desktop .text-wrapper-3 {
+  color: #000000;
+}
+
+.desktop .text-wrapper-4 {
   position: absolute;
   width: 325px;
   height: 65px;
@@ -163,9 +150,23 @@
   font-family: "Inter-ExtraBold", Helvetica;
   font-weight: 800;
   color: #ffffff;
-  font-size: 48px;
+  font-size: 45px;
   letter-spacing: 0;
   line-height: normal;
+}
+
+.desktop .HOME {
+    position: absolute;
+    width: 150px;
+    height: 45px;
+    top: 232px;
+    left: 1064px;
+    font-family: "Inter-ExtraBold", Helvetica;
+    font-weight: 800;
+    color: #ffffff;
+    font-size: 15px;
+    letter-spacing: 0;
+    line-height: normal;
 }
 
 .desktop .faqs-i-help-i {
@@ -181,7 +182,25 @@
   line-height: normal;
 }
 
-.desktop .OUR-SERVICES-what-we {
+.desktop .home-about-services {
+  position: absolute;
+  width: 518px;
+  height: 71px;
+  top: 82px;
+  left: 736px;
+  font-family: "Inter-Medium", Helvetica;
+  font-weight: 500;
+  color: transparent;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.desktop .text-wrapper-5 {
+  color: #46c6ce;
+}
+
+.desktop .OUR-SERVICE-what-we {
   position: absolute;
   width: 426px;
   height: 171px;
@@ -197,22 +216,119 @@
 }
 
 .desktop .text-wrapper-6 {
-  font-weight: 600;
-  color: #46c6ce;
+    font-weight: 600;
+    color: #46c6ce;
 }
 
 .desktop .text-wrapper-7 {
   font-family: "Inter-ExtraBold", Helvetica;
   font-weight: 800;
-  color: #000000;
-  font-size: 15px;
+  color: #194376;
+  font-size: 50px;
+}
+
+.desktop .cleaning-products {
+    position: absolute;
+    width: 203px;
+    height: 201px;
+    top: 588px;
+    left: 91px;
+    object-fit: cover;
+}
+
+.desktop .p {
+    position: absolute;
+    width: 244px;
+    height: 58px;
+    top: 796px;
+    left: 71px;
+    font-family: "Inter-Bold", Helvetica;
+    font-weight: 700;
+    color: #000000;
+    font-size: 15px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.desktop .cleaning-staff {
+    position: absolute;
+    width: 203px;
+    height: 201px;
+    top: 588px;
+    left: 447px;
+    object-fit: cover;
 }
 
 .desktop .text-wrapper-8 {
-  font-family: "Inter-ExtraBold", Helvetica;
-  font-weight: 800;
-  color: #194376;
-  font-size: 50px;
+    position: absolute;
+    width: 208px;
+    height: 58px;
+    top: 796px;
+    left: 457px;
+    font-family: "Inter-Bold", Helvetica;
+    font-weight: 700;
+    color: #000000;
+    font-size: 15px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.desktop .overlap {
+    position: absolute;
+    width: 239px;
+    height: 259px;
+    top: 588px;
+    left: 803px;
+}
+
+.desktop .quick {
+    position: absolute;
+    width: 203px;
+    height: 201px;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+}
+
+.desktop .text-wrapper-9 {
+    position: absolute;
+    width: 231px;
+    height: 59px;
+    top: 207px;
+    left: 8px;
+    font-family: "Inter-Bold", Helvetica;
+    font-weight: 700;
+    color: #000000;
+    font-size: 15px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.desktop .sun {
+    position: absolute;
+    width: 203px;
+    height: 201px;
+    top: 588px;
+    left: 1159px;
+    object-fit: cover;
+}
+
+.desktop .text-wrapper-10 {
+    position: absolute;
+    width: 231px;
+    height: 62px;
+    top: 796px;
+    left: 1145px;
+    font-family: "Inter-Bold", Helvetica;
+    font-weight: 700;
+    color: #000000;
+    font-size: 15px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
 }
 
 </style>
