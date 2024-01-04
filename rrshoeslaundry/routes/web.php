@@ -25,11 +25,6 @@ Route::get('actionlogout', [LoginController::class, 'actionlogout'])->name('acti
 Route::get('register', [RegisterController::class, 'register'])->name('register');
 Route::post('register/action', [RegisterController::class, 'actionregister'])->name('actionregister');
 
-// Route::get('/home', function () {
-//     return view('home');
-// });
-
-
 Route::get('/about', function () {
     return view('about');
 });
@@ -51,13 +46,15 @@ Route::get('/create', function () {
     return view('create');
 });
 
+Route::post('/create',[LaundryController::class,'store']);
+
+
 Route::get('/edit', function () {
     return view('edit');
 });
 
-Route::get('/index', function () {
-    return view('index');
-});
+Route::get('/index',[LaundryController::class,'index'])->name('index');
+Route::get('/index/{id}',[LaundryController::class,'destroy'])->name('destroy');
 
 Route::get('/show', function () {
     return view('show');

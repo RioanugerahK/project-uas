@@ -1,8 +1,7 @@
 <?php
 
 namespace App\Http\Controllers;
-
-use App\Models\Laundry;
+use App\Models\laundries;
 use Illuminate\Http\Request;
 
 class LaundryController extends Controller
@@ -12,9 +11,10 @@ class LaundryController extends Controller
      */
     public function index()
     {
-        $laundry = Laundry::orderBy('created_at', 'DESC')->get();
+        $laundries = laundries::all();
+        $laundries = laundries::orderBy('created_at', 'DESC')->get();
 
-        return view('laundry.index', compact('laundry'));
+        return view('index', compact('laundries'));
     }
 
     /**
@@ -22,7 +22,7 @@ class LaundryController extends Controller
      */
     public function create()
     {
-        return view('pages.laundry.create');
+        return view('create');
     }
 
     /**
@@ -30,9 +30,9 @@ class LaundryController extends Controller
      */
     public function store(Request $request)
     {
-       Laundry::create($request->all());
+       laundries::create($request->all());
 
-       return redirect()->route('laundry.index')->with('success', 'Shoes added successfully');
+       return redirect()->route('index')->with('success', 'Shoes added successfully');
     }
 
     /**
@@ -40,9 +40,9 @@ class LaundryController extends Controller
      */
     public function show(string $id)
     {
-        $laundry = Laundry::findOrFail($id);
+        $laundries = laundries::findOrFail($id);
 
-        return view('pages.laundry.show', compact('laundry'));
+        return view('show', compact('laundries'));
     }
 
     /**
@@ -50,9 +50,9 @@ class LaundryController extends Controller
      */
     public function edit(string $id)
     {
-        $laundry = Laundry::findOrFail($id);
+        $laundries = laundries::findOrFail($id);
 
-        return view('pages.laundry.edit', compact('laundry'));
+        return view('edit', compact('laundries'));
     }
 
     /**
@@ -60,11 +60,11 @@ class LaundryController extends Controller
      */
     public function update(Request $request, string $id)
     {
-        $laundry = Laundry::findOrFail($id);
+        $laundries = laundries::findOrFail($id);
 
-        $laundry->update($request->all());
+        $laundries->update($request->all());
 
-        return redirect()->route('laundry.index')->with('success', 'Shoes updated successfully');
+        return redirect()->route('index')->with('success', 'Shoes updated successfully');
 
     }
 
@@ -73,10 +73,10 @@ class LaundryController extends Controller
      */
     public function destroy(string $id)
     {
-        $laundry = Laundry::findOrFail($id);
+        $laundries = laundries::findOrFail($id);
 
-        $laundry->delete();
+        $laundries->delete();
 
-        return redirect()->route('laundry.index')->with('success', 'Shoes deleted successfully');
+        return redirect()->route('index')->with('success', 'Shoes deleted successfully');
     }
 }

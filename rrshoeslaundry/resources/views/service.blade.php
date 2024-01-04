@@ -14,10 +14,9 @@
           <p class="RR-SHOESLAUNDRY">
             <span class="span">RR</span>
             <span class="text-wrapper-2">&nbsp;</span>
-            <span class="text-wrapper-3">SHOESLAUNDRY</span>
+            <span class="text-wrapper-2">SHOESLAUNDRY</span>
           </p>
-          <div class="text-wrapper-4">Our Services</div>
-          <div class="HOME">HOME &gt; Services</div>
+          <div class="text-wrapper-4">Our Services</div>x
           <p class="faqs-i-help-i">FAQs&nbsp;&nbsp; I&nbsp;&nbsp; Help&nbsp;&nbsp; I&nbsp;&nbsp; Support</p>
           <p class="home-about-services">
             <a href="home" class="text-wrapper-5">Home&nbsp;&nbsp; </a>
@@ -134,7 +133,7 @@
 }
 
 .desktop .text-wrapper-2 {
-  color: #ed1515;
+  color: #46c6ce;
 }
 
 .desktop .text-wrapper-3 {
@@ -194,6 +193,9 @@
   font-size: 20px;
   letter-spacing: 0;
   line-height: normal;
+}
+.desktop .home-about-services a{
+  text-decoration: none;
 }
 
 .desktop .text-wrapper-5 {

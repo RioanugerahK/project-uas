@@ -40,7 +40,7 @@
           </div>
           <div class="overlap-group-2">
             <div class="frame-2"></div>
-            <a href="datasepatu.blade.php">
+            <a href="index">
             <div class="text-wrapper-10">Rp. 30K</div>
             </a>
           </div>
@@ -53,7 +53,7 @@
           </p>
           <div class="overlap-2">
             <div class="frame-4"></div>
-            <a href="datasepatu.blade.php">
+            <a href="index">
             <div class="text-wrapper-10">Rp. 80K</div>
             </a>
           </div>
@@ -67,7 +67,7 @@
           </div>
           <div class="overlap-4">
             <div class="frame-2"></div>
-            <a href="datasepatu.blade.php">
+            <a href="index">
             <div class="text-wrapper-10">Rp. 45K</div>
             </a>
           </div>
