@@ -56,6 +56,7 @@ Route::get('/edit', function () {
 Route::get('/index',[LaundryController::class,'index'])->name('index');
 Route::get('/index/{id}',[LaundryController::class,'destroy'])->name('destroy');
 
+
 Route::get('/show', function () {
     return view('show');
 });

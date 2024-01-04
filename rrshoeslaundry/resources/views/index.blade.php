@@ -2,49 +2,74 @@
 <html>
   <head>
     <meta charset="utf-8" />
-  </head>
-  <body>
-    <div class="d-flex align-items-center justify-content-between">
-        <h1 class="mb-0">Shoes</h1>
-        <a href="/create" class="btn btn-primary">Add Shoes</a>
+    <link
+    href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    rel="stylesheet"
+    integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+    crossorigin="anonymous"
+  />
+</head>
+<body>
+  <div class="container">
+    <div class="d-flex align-items-center justify-content-between mb-4">
+      <h1 class="mb-0">Shoes</h1>
+      <a href="/create" class="btn btn-primary">Add Shoes</a>
     </div>
     <hr />
     @if(Session::has('success'))
-        <div class="alert alert-success" role="alert">
-            {{ Session::get('success') }}
-        </div>
+    <div class="alert alert-success" role="alert">
+      {{ Session::get('success') }}
+    </div>
     @endif
     <table class="table table-hover">
-        <thead class="table-primary">
-            <tr>
-                <th>#</th>
-                <th>Nama</th>
-                <th>Jenis Sepatu</th>
-                <th>Layanan</th>
-                <th>No.Hp</th>
-            </tr>
-        </thead>
-        <tbody>
-                 @foreach($laundries as $l)
-                    <tr>
-                        <td class="align-middle">{{$l->nama}}</td>
-                        <td class="align-middle">{{$l->jenis_sepatu}}</td>
-                        <td class="align-middle">{{$l->layanan}}</td>
-                        <td class="align-middle">{{$l->no_hp}}</td>
-                        <td class="align-middle">
-                            <div class="btn-group" role="group" aria-label="Basic example">
-                                <a href="" type="button" class="btn btn-secondary">Detail</a>
-                                <a href="" type="button" class="btn btn-warning">Edit</a>
-                                <form action="" method="POST" type="button" class="btn btn-danger p-0" onsubmit="return confirm('Delete?')">
-                                    @csrf
-                                    @method('DELETE')
-                                    <a href="{{route('destroy',$l->id)}}">Delete</a>
-                                </form>
-                            </div>
-                        </td>
-                    </tr>
-                    @endforeach
-            </tbody>
-        </table>
-    </body>
-    </html>
+      <thead class="table-primary">
+        <tr>
+          <th>#</th>
+          <th>Nama</th>
+          <th>Jenis Sepatu</th>
+          <th>Layanan</th>
+          <th>No.Hp</th>
+          <th>Action</th>
+        </tr>
+      </thead>
+      <tbody>
+        @foreach($laundries as $l)
+        <tr>
+          <td class="align-middle">{{$l->id}}</td>
+          <td class="align-middle">{{$l->nama}}</td>
+          <td class="align-middle">{{$l->jenis_sepatu}}</td>
+          <td class="align-middle">{{$l->layanan}}</td>
+          <td class="align-middle">{{$l->no_hp}}</td>
+          <td class="align-middle">
+            <div class="btn-group" role="group" aria-label="Basic example">
+              <a href="" type="button" class="btn btn-warning">Edit</a>
+              <form action="" method="POST" class="m-0"
+                onsubmit="return confirm('Delete?')">
+                @csrf
+                @method('DELETE')
+                <a href="{{ route('destroy', $l->id ) }}" class="btn btn-danger">Delete</a>
+              </form>
+            </div>
+          </td>
+        </tr>
+        @endforeach
+      </tbody>
+    </table>
+  </div>
+  <script
+    src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"
+  ></script>
+  <script
+    src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+    integrity="sha384-GC1E8X5lKo7MOh5V4460vA5vIGlPzynJ0yn7j1HE4Wt1B6Vbh7cGZSUyD9xkixfo"
+    crossorigin="anonymous"
+  ></script>
+  <script
+    src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+    integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8sh+EmmCaoQt6jkkFqy3lLVpJ7B5qBkahB8BT9"
+    crossorigin="anonymous"
+  ></script>
+</body>
+</html>
