@@ -13,7 +13,6 @@
   <div class="container">
     <div class="d-flex align-items-center justify-content-between mb-4">
       <h1 class="mb-0">Shoes</h1>
-      <a href="/create" class="btn btn-primary">Add Shoes</a>
     </div>
     <hr />
     @if(Session::has('success'))
@@ -26,8 +25,11 @@
         <tr>
           <th>#</th>
           <th>Nama</th>
-          <th>Jenis Sepatu</th>
+          <th>Bahan Sepatu</th>
+          <th>Alamat</th>
           <th>Layanan</th>
+          <th>Tanggal    PickUp</th>
+          <th>Waktu PickUp</th>
           <th>No.Hp</th>
           <th>Action</th>
         </tr>
@@ -38,7 +40,10 @@
           <td class="align-middle">{{$l->id}}</td>
           <td class="align-middle">{{$l->nama}}</td>
           <td class="align-middle">{{$l->jenis_sepatu}}</td>
+          <td class="align-middle">{{$l->alamat}}</td>
           <td class="align-middle">{{$l->layanan}}</td>
+          <td class="align-middle">{{$l->tanggal_pickup}}</td>
+          <td class="align-middle">{{$l->waktu_pickup}}</td>
           <td class="align-middle">{{$l->no_hp}}</td>
           <td class="align-middle">
             <div class="btn-group" role="group" aria-label="Basic example">

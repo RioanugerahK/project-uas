@@ -42,6 +42,18 @@
         <p class="text-wrapper-10">Mengeringkan sepatu dengan cepat tanpa merusak bahan dari seaptu</p>
       </div>
     </div>
+    <div class="footer">
+        <h4>Hubungi Kami</h4>
+        <p>Alamat: Jl. Phh Musthafa</p>
+        <p>Email: rrshoeslaundry@gmail.com</p>
+        <p>WhatsApp: +62-8572-4495-430</p>
+
+        <a href="home" class="home">Home</a>
+        <a href="about" class="about">About</a>
+        <a href="service" class="service">Service</a>
+        <a href="pricing" class="pricing">Pricing</a>
+        <a href="contact" class="contact">Contact</a>
+      </div>
   </body>
 </html>
 
@@ -332,5 +344,61 @@
     letter-spacing: 0;
     line-height: normal;
 }
+
+.footer {
+      background-color: #194376;
+      padding: 30px 0;
+      color: #333;
+      text-align: center;
+    }
+
+    .footer h4 {
+      margin-bottom: 15px;
+      font-size: 20px;
+      color: #ffffff;
+    }
+
+    .footer p {
+      margin-bottom: 10px;
+      font-size: 16px;
+      color: #ffffff;
+    }
+
+    .footer a {
+      color: #46c6ce;
+      text-decoration: none;
+      margin: 0 10px;
+    }
+
+    .footer a:hover {
+      color: #194376;
+      text-decoration: underline;
+    }
+
+    /* Tambahan CSS untuk tautan */
+    .footer a.home:hover {
+      color: #46c6ce;
+      text-decoration: underline;
+    }
+
+    .footer a.about:hover {
+      color: #46c6ce;
+      text-decoration: underline;
+    }
+
+    .footer a.service:hover {
+      color: #46c6ce;
+      text-decoration: underline;
+    }
+
+    .footer a.pricing:hover {
+      color: #46c6ce;
+      text-decoration: underline;
+    }
+
+    .footer a.contact:hover {
+      color: #46c6ce;
+      text-decoration: underline;
+    }
 
 </style>

@@ -42,11 +42,23 @@ Route::get('/contact', function () {
     return view('contact');
 });
 
-Route::get('/create', function () {
-    return view('create');
+Route::get('/create1', function () {
+    return view('create1');
 });
 
-Route::post('/create',[LaundryController::class,'store']);
+Route::post('/create1',[LaundryController::class,'store']);
+
+Route::get('/create2', function () {
+    return view('create2');
+});
+
+Route::post('/create2',[LaundryController::class,'store']);
+
+Route::get('/create3', function () {
+    return view('create3');
+});
+
+Route::post('/create3',[LaundryController::class,'store']);
 
 
 Route::get('/edit', function () {

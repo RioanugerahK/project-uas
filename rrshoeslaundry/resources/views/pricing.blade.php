@@ -18,7 +18,7 @@
             <span class="span">&nbsp;</span>
             <span class="text-wrapper-2">SHOESLAUNDRY</span>
           </p>
-          <div class="text-wrapper-3">Pricing Plan</div>
+          <div class="text-wrapper-3">Pricing List</div>
           <p class="faqs-i-help-i">FAQs&nbsp;&nbsp; I&nbsp;&nbsp; Help&nbsp;&nbsp; I&nbsp;&nbsp; Support</p>
           <p class="nav">
             <a href="home" class="text-wrapper-2">Home&nbsp;&nbsp; </a>
@@ -29,7 +29,7 @@
           </p>
         </div>
         <p class="OUR-PRICING-PLAN-the">
-          <span class="text-wrapper-7">OUR PRICING PLAN<br /></span>
+          <span class="text-wrapper-7">OUR PRICING LIST<br /></span>
           <span class="text-wrapper-8"><br /></span>
           <span class="text-wrapper-9">The Best Price</span>
         </p>
@@ -40,7 +40,7 @@
           </div>
           <div class="overlap-group-2">
             <div class="frame-2"></div>
-            <a href="index">
+            <a href="create1">
             <div class="text-wrapper-10">Rp. 30K</div>
             </a>
           </div>
@@ -48,12 +48,12 @@
         <div class="frame-3">
           <div class="ellipse-2"></div>
           <p class="spesial-clean-like-a">
-            Spesial Clean<br /><br />Like A New Treatment<br />All Material (Luar dan Dalam)<br />Plus Pewangi/Anti
-            Jamur<br />Member Card<br />Sticker
+            Spesial Cleaning<br /><br />Like A New Treatment<br />All Material (Luar dan Dalam)<br />Plus Pewangi/Anti
+            Jamur<br />Member Card<br />Sticker<br />(4-6 Hari)
           </p>
           <div class="overlap-2">
             <div class="frame-4"></div>
-            <a href="index">
+            <a href="create2">
             <div class="text-wrapper-10">Rp. 80K</div>
             </a>
           </div>
@@ -62,18 +62,30 @@
           <div class="overlap-3">
             <div class="ellipse-3"></div>
             <p class="p">
-              Deep Clean<br /><br />All Material (Luar dan Dalam)<br />Plus Pewangi/Anti Jamur<br />( 3 - 5 Hari)
+              Deep Cleaning<br /><br />All Material (Luar dan Dalam)<br />Plus Pewangi/Anti Jamur<br />( 3 - 5 Hari)
             </p>
           </div>
           <div class="overlap-4">
             <div class="frame-2"></div>
-            <a href="index">
+            <a href="create3">
             <div class="text-wrapper-10">Rp. 45K</div>
             </a>
           </div>
         </div>
       </div>
     </div>
+    <div class="footer">
+        <h4>Hubungi Kami</h4>
+        <p>Alamat: Jl. Phh Musthafa</p>
+        <p>Email: rrshoeslaundry@gmail.com</p>
+        <p>WhatsApp: +62-8572-4495-430</p>
+
+        <a href="home" class="home">Home</a>
+        <a href="about" class="about">About</a>
+        <a href="service" class="service">Service</a>
+        <a href="pricing" class="pricing">Pricing</a>
+        <a href="contact" class="contact">Contact</a>
+      </div>
   </body>
 </html>
 
@@ -454,5 +466,61 @@
     left: 0px;
     object-fit: cover;
 }
+
+.footer {
+      background-color: #194376;
+      padding: 30px 0;
+      color: #333;
+      text-align: center;
+    }
+
+    .footer h4 {
+      margin-bottom: 15px;
+      font-size: 20px;
+      color: #ffffff;
+    }
+
+    .footer p {
+      margin-bottom: 10px;
+      font-size: 16px;
+      color: #ffffff;
+    }
+
+    .footer a {
+      color: #46c6ce;
+      text-decoration: none;
+      margin: 0 10px;
+    }
+
+    .footer a:hover {
+      color: #194376;
+      text-decoration: underline;
+    }
+
+    /* Tambahan CSS untuk tautan */
+    .footer a.home:hover {
+      color: #46c6ce;
+      text-decoration: underline;
+    }
+
+    .footer a.about:hover {
+      color: #46c6ce;
+      text-decoration: underline;
+    }
+
+    .footer a.service:hover {
+      color: #46c6ce;
+      text-decoration: underline;
+    }
+
+    .footer a.pricing:hover {
+      color: #46c6ce;
+      text-decoration: underline;
+    }
+
+    .footer a.contact:hover {
+      color: #46c6ce;
+      text-decoration: underline;
+    }
 
 </style>
