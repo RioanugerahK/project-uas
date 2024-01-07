@@ -56,8 +56,8 @@
                 <form action="{{ route('destroy', $l->id ) }}" method="POST" class="m-0"
                   onsubmit="return confirm('Delete?')">
                   @csrf
-                  @method('DELETE')
-                  <button type="submit" class="btn btn-danger">Delete</button>
+                  @method('Destroy')
+                  <a href="{{ route('destroy', $l->id ) }}" class="btn btn-danger">Delete</a>
                 </form>
               </div>
             </td>

@@ -17,6 +17,7 @@ class laundries extends Model
         'layanan',
         'no_hp',
         'tanggal_pickup',
-        'waktu_pickup'
+        'waktu_pickup',
+        'alamat'
     ];
 }
