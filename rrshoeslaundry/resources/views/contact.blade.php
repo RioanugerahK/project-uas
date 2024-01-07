@@ -2,6 +2,7 @@
 <html>
   <head>
     <meta charset="utf-8" />
+    <title>Contact</title>
   </head>
   <body>
     <div class="desktop">
@@ -29,7 +30,7 @@
         <div class="ellipse-2"></div>
         <div class="ellipse-3"></div>
         <div class="text-wrapper-7">Jl. Phh Musthafa</div>
-        <div class="text-wrapper-8">rrshoeslaundry@gmail.com</div>
+        <div class="text-wrapper-8">@rrshoeslaundry</div>
         <div class="text-wrapper-9">+62-8572-4495-430</div>
         <form action="" method="POST">
           <input type="text" class="frame" placeholder="SUBJECT" name="SUBJECT">

@@ -1,54 +1,79 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>Add Shoes For Fast Cleaning</title>
+    <title>make your order</title>
     <!-- Add Bootstrap CSS link here -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 </head>
 
 <body>
     <div class="container mt-5">
-        <h1 class="mb-0">Add Shoes For Fast Cleaning</h1>
+        <h1 class="mb-3">make your order</h1>
         <hr />
+
         <form action="" method="POST">
             @csrf
-            <div class="row mb-3">
-                <div class="col">
+
+            <div class="form-row mb-3">
+                <div class="col-md-4">
+                    <label for="nama">Nama</label>
                     <input type="text" name="nama" class="form-control" placeholder="Nama">
                 </div>
-                <div class="col">
+                <div class="col-md-4">
+                    <label for="jenis_sepatu">Shoes Material</label>
                     <input type="text" name="jenis_sepatu" class="form-control" placeholder="Shoes Material">
                 </div>
-                <div class="col">
+                <div class="col-md-4">
+                    <label for="alamat">Address</label>
                     <input type="text" name="alamat" class="form-control" placeholder="Address">
                 </div>
             </div>
-            <div class="row mb-3">
-                <div class="col">
-                    <select id="Layanan Tambahan" name="layanan_tambahan" class="form-select" placeholder="Layanan Tambahan">
-                        <option selected>Layanan Tambahan</option>
-                        <option value="Fast Cleaning">Unyellowing - 35K</option>
-                        <option value="Special Cleaning">Reglue - 40K</option>
-                        <option value="Deep Cleaning">Repaint - 50K</option>
+
+            <div class="form-row mb-3">
+                <div class="col-md-4">
+                    <label for="layanan">Layanan</label>
+                    <select id="layanan" name="layanan" class="form-control">
+                        <option selected>Layanan</option>
+                        <option value="Fast Cleaning">Fast Cleaning</option>
+                        <option value="Fast Cleaning">Deep Cleaning</option>
+                        <option value="Fast Cleaning">Special Cleaning</option>
                     </select>
                 </div>
-            <label for="tanggal_pickup" class="col-form-label col">Pick-up Date</label>
-            <div class="col">
-                <input type="date" id="tanggal_pickup" name="tanggal_pickup" class="form-control">
+
+                <div class="col-md-4">
+                    <label for="layanan_tambahan">Layanan Tambahan</label>
+                    <select id="layanan_tambahan" name="layanan_tambahan" class="form-control">
+                        <option selected>Layanan Tambahan</option>
+                        <option value="Unyellowing">Unyellowing - 35K</option>
+                        <option value="Reglue">Reglue - 40K</option>
+                        <option value="Repaint">Repaint - 50K</option>
+                    </select>
+                </div>
+
+                <div class="col-md-2">
+                    <label for="tanggal_pickup">Pick-up Date</label>
+                    <input type="date" id="tanggal_pickup" name="tanggal_pickup" class="form-control">
+                </div>
+
+                <div class="col-md-2">
+                    <label for="waktu_pickup">Pick-up Time</label>
+                    <input type="time" id="waktu_pickup" name="waktu_pickup" class="form-control">
+                </div>
             </div>
-            <label for="waktu_pickup" class="col-form-label col">Pick-up Time</label>
-            <div class="col">
-                <input type="time" id="waktu_pickup" name="waktu_pickup" class="form-control">
-            </div>
-                <div class="col">
+
+            <div class="form-row mb-3">
+                <div class="col-md-4">
+                    <label for="no_hp">No. Hp</label>
                     <input class="form-control" name="no_hp" placeholder="No. Hp">
                 </div>
             </div>
-            <div class="row">
-                <div class="d-grid">
-                    <button class="btn btn-primary">Submit</button>
+
+            <div class="form-row">
+                <div class="col-md-4">
+                    <button class="btn btn-primary">submit</button>
                 </div>
             </div>
         </form>

@@ -16,5 +16,7 @@ class laundries extends Model
         'jenis_sepatu',
         'layanan',
         'no_hp',
+        'tanggal_pickup',
+        'waktu_pickup'
     ];
 }

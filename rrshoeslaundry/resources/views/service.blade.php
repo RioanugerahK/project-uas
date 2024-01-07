@@ -2,6 +2,7 @@
 <html>
   <head>
     <meta charset="utf-8" />
+    <title>Service</title>
   </head>
   <body>
     <div class="desktop">
@@ -31,15 +32,15 @@
             <span class="text-wrapper-7">What We Offer</span>
         </p>
         <img class="cleaning-products" src="img/cleaning-products.png" />
-        <p class="p">Menggunakan alat terbaik yang tidak akan merusak sepatu</p>
+        <p class="p">Use the best tools that will not damage your shoes</p>
         <img class="cleaning-staff" src="img/cleaning-staff.png" />
-        <p class="text-wrapper-8">Dibersihkan oleh para ahli yang berpengalaman di pembersihan sepatu</p>
+        <p class="text-wrapper-8">Cleaned by experts experienced in shoe cleaning</p>
         <div class="overlap">
             <img class="quick" src="img/quick.png" />
-            <p class="text-wrapper-9">Membersihkan sepatu dengan cepat dan tepat waktu</p>
+            <p class="text-wrapper-9">Clean shoes quickly and on time</p>
         </div>
         <img class="sun" src="img/sun.png" />
-        <p class="text-wrapper-10">Mengeringkan sepatu dengan cepat tanpa merusak bahan dari seaptu</p>
+        <p class="text-wrapper-10">Dry shoes quickly without damaging the material of the shoes</p>
       </div>
     </div>
     <div class="footer">

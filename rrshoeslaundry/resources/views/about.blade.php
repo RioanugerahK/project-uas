@@ -2,6 +2,7 @@
 <html>
   <head>
     <meta charset="utf-8" />
+    <title>About</title>
   </head>
   <body>
     <div class="desktop">
@@ -32,9 +33,7 @@
           <span class="text-wrapper-9">We Are Quality Laundry<br />Provider In Your City<br /></span>
           <span class="text-wrapper-10"><br /></span>
           <span class="text-wrapper-11">
-            RRSHOELAUNDRY adalah layanan laundry sepatu yang berkomitmen untuk memberikan pelayanan terbaik dalam perawatan dan kebersihan sepatu Anda. Dengan pengalaman bertahun-tahun, kami telah menjadi pilihan utama bagi pelanggan yang menginginkan sepatu mereka dirawat dengan teliti.
-            Tim kami terdiri dari ahli laundry sepatu yang berdedikasi dan menggunakan teknologi terkini untuk memastikan setiap pasangan sepatu Anda kembali bersih dan terawat seperti baru.
-            Kami mengerti bahwa setiap sepatu memiliki karakteristik dan bahan yang berbeda, oleh karena itu, kami menyediakan layanan yang disesuaikan dengan kebutuhan unik setiap pelanggan. Keamanan, kualitas, dan kepuasan pelanggan adalah prioritas utama kami.
+            RRSHOELAUNDRY is a shoe laundry service that is committed to providing the best service in caring for and cleaning your shoes. With years of experience, we have become the first choice for customers who want their shoes to be looked after with care. Our team consists of shoe laundry experts who maintain and use the latest technology to ensure that every pair of your shoes is clean and maintained like new. We understand that each shoe has different characteristics and materials, therefore, we provide services tailored to each customer's unique needs. Safety, quality and customer satisfaction are our top priorities.
           </span>
         </p>
         <img class="image" src="{{ asset('img/sepatu.png') }}" alt="Sepatu Image">
@@ -197,7 +196,7 @@
 .desktop .LEARN-ABOUT-US-we {
   position: absolute;
   width: 759px;
-  top: 481px;
+  top: 405px;
   left: 602px;
   font-family: "Inter-ExtraBold", Helvetica;
   font-weight: 400;
